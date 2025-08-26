@@ -1,0 +1,17 @@
+# Python specific
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python/
+env/
+venv/
+.venv/
+# Operating System
+.DS_Store
+.env
+
+# Project specific
+*.pdf          # Ignore generated PDF files
+*.md           # Ignore generated Markdown files
+config.py      # CRITICAL: Keep your API key safe! Do NOT upload config.py
