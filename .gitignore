@@ -1,4 +1,4 @@
-# Python specific
+# Python-specific files and directories
 __pycache__/
 *.pyc
 *.pyo
@@ -7,11 +7,12 @@ __pycache__/
 env/
 venv/
 .venv/
-# Operating System
-.DS_Store
-.env
 
-# Project specific
-*.pdf          # Ignore generated PDF files
-*.md           # Ignore generated Markdown files
-config.py      # CRITICAL: Keep your API key safe! Do NOT upload config.py
+# Operating System generated files
+.DS_Store # macOS-specific
+Thumbs.db # Windows-specific
+
+# Project-specific generated output and sensitive files
+*.pdf         # Ignores all generated PDF files
+*.md          # Ignores all generated Markdown files
+config.py     # CRITICAL: This file contains your API key and should NOT be uploaded.
